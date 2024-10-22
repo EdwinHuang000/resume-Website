@@ -1,6 +1,6 @@
 import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { TypeAnimation } from "react-type-animation";
-import profilepic from "../assets/profilepic5.png";
+import profilepic from "../assets/profile.png";
 
 const Hero = () => {
   return (
@@ -33,7 +33,7 @@ const Hero = () => {
             <AiFillGithub />
             <AiFillInstagram />
           </div>
-          <a href="/name">
+          <a href="/src/assets/Resume HuangZiyang general.pdf">
             <button className="p-[3px] relative">
               <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
               <div className="  text-sm px-8 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
@@ -44,9 +44,9 @@ const Hero = () => {
         </div>
         <div className="my-auto">
           <img
-            className="w-[300px]  sm:w-[500px] mx-auto h-auto rounded-full"
+            className="w-[200px] sm:w-[300px] mx-auto h-auto rounded-full"
             src={profilepic}
-            alt="picture"
+            alt="profile picture"
           />
         </div>
       </div>

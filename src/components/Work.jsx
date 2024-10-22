@@ -1,7 +1,9 @@
+import React from 'react';
 import project1 from "../assets/proj1.png";
 import project2 from "../assets/proj2.png";
 import project3 from "../assets/proj3.png";
 import project4 from "../assets/proj4.png";
+
 function Work() {
   return (
     <div id="work" className="py-6 max-w-[1200px] mx-auto">
@@ -12,11 +14,13 @@ function Work() {
               My <span>Projects</span>
             </h2>
             <p className="text-gray-500">
-              these are my latest projects for different clients
+              Developed over 8 web-based projects, including e-commerce sites, portfolio websites, and task
+              management apps. These projects involved using technologies like NextJS, ReactJS, Node.js,
+              Tailwind, Firebase.
             </p>
           </div>
         </div>
-        <div className="grid grid-cils-2 gap-4 sm:grid-cols-2 md:gap-6 xl:gap-8 ">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 md:gap-6 xl:gap-8">
           <a
             href="/"
             className="group h-48 overflow-hidden rounded-lg shadow-lg md:h-80"
